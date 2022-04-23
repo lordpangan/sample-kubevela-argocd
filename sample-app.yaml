@@ -23,7 +23,7 @@ spec:
                 mountToEnv:
                   envName: ENV_PREFIX
                   configMapKey: env.prefix
-        - type: gatewayv2
+        - type: gateway-ingress-url-rewrite
           properties:
             domain: localhost
             http:

@@ -12,11 +12,11 @@ spec:
       traits:
         - type: annotations
           properties:
-            configmap.reloader.stakater.com/reload: "argocd-properties"
+            configmap.reloader.stakater.com/reload: "sample-app-properties"
         - type: storage
           properties:
             configMap:
-              - name: sample-app.properties
+              - name: sample-app-properties
                 mountOnly: false
                 mountPath: /dumps
                 # Mount ConfigMap to Env

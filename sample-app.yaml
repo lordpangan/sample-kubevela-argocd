@@ -16,7 +16,7 @@ spec:
         - type: storage
           properties:
             configMap:
-              - name: argocd-properties
+              - name: sample-app.properties
                 mountOnly: false
                 mountPath: /dumps
                 # Mount ConfigMap to Env

@@ -6,7 +6,7 @@ configMapGenerator:
   envs:
   - sample-app.properties
 
-namespace: qa
+namespace: qa2
 
 resources:
 - namespace.yaml

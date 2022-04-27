@@ -6,7 +6,7 @@ configMapGenerator:
   envs:
   - sample-app.properties
 
-namespace: qa3
+namespace: prod3
 
 resources:
 - https://raw.githubusercontent.com/lordpangan/kubevela-manifests/main/traits/gateway-ing-url-rewrite.yaml

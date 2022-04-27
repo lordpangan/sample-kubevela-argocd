@@ -27,5 +27,5 @@ spec:
           properties:
             domain: localhost
             http:
-              "/qa": 8080
+              "/prod": 8080
             rewritePath: /

@@ -3,12 +3,12 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: qa3
+  name: qa
 
 ---
 
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: prod3
+  name: prod
 

@@ -6,12 +6,11 @@ configMapGenerator:
   envs:
   - sample-app.properties
 
-namespace: prod3
+namespace: prod
 
 resources:
 - https://raw.githubusercontent.com/lordpangan/kubevela-manifests/main/traits/gateway-ing-url-rewrite.yaml
 - sample-app.yaml
-
 
 generatorOptions:
   disableNameSuffixHash: true
